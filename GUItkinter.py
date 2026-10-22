@@ -14,3 +14,4 @@ for i in range(10):
 hasil = tk.Label(root, text="")
 
 def prediksi():
+    hasil.config(text="Prodi yang cocok: Teknologi Informasi")
