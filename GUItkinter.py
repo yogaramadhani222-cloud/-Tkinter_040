@@ -12,3 +12,5 @@ for i in range(10):
     tk.Entry(frame).grid(row=i, column=1, padx=5, pady=2)
 
 hasil = tk.Label(root, text="")
+
+def prediksi():
