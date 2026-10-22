@@ -6,3 +6,5 @@ tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan").pack(pady=10)
 
 frame = tk.Frame(root)
 frame.pack()
+
+for i in range(10):
