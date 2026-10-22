@@ -9,4 +9,4 @@ frame.pack()
 
 for i in range(10):
     tk.Label(frame, text="Nilai Mata Pelajaran " + str(i + 1)).grid(row=i, column=0, sticky="w", padx=5, pady=2)
- 
+    tk.Entry(frame).grid(row=i, column=1, padx=5, pady=2)
