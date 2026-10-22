@@ -16,3 +16,4 @@ hasil = tk.Label(root, text="")
 def prediksi():
     hasil.config(text="Prodi yang cocok: Teknologi Informasi")
 tk.Button(root, text="Hasil Prediksi", command=prediksi).pack(pady=10)
+hasil.pack()
